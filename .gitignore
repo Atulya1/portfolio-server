@@ -1,0 +1,32 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Gradle files
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+gradle-app.setting
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# VSCode
+.vscode/
+
+# Logs
+*.log
+logs/
+
+# Compiled files
+*.class
+*.war
+*.jar
+
+# Generated files
+bin/
+out/
+
+# Spring Boot configuration
+.env
