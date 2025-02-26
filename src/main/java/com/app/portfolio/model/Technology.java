@@ -11,4 +11,12 @@ public class Technology {
       this.name = name;
       this.type = type;
     }
+
+    public String getTechnologyName() {
+      return name;
+    }
+
+    public TechnologyType getTechnologyType() {
+      return type;
+    }
   }
